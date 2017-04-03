@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Reference Include="My.Awesome.Library" Condition="'$(Platform)' == 'x86'">
+      <HintPath>$(MSBuildThisFileDirectory)..\x86\My.Awesome.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="My.Awesome.Library" Condition="'$(Platform)' == 'x64'">
+      <HintPath>$(MSBuildThisFileDirectory)..\x64\My.Awesome.Library.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
