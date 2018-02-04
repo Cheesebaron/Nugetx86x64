@@ -3,6 +3,7 @@
   <metadata>
     <id>My.Awesome.Library</id>
     <version>1.0.0</version>
+    <authors>John Doe</authors>
     <title>My Awesome Library</title>
     <description>Herpa Derpa</description>
   </metadata>
